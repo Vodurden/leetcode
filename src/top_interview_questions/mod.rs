@@ -4,3 +4,4 @@ mod rotate_array;
 mod contains_duplicate;
 mod single_number;
 mod intersection_of_two_arrays_2;
+mod plus_one;
