@@ -76,7 +76,7 @@ mod tests {
     }
 
     #[test]
-    pub fn one_value() {
+    pub fn one_input() {
         let input = vec![5];
         let expected_result = 0;
         assert_eq!(Solution::max_profit(input), expected_result);

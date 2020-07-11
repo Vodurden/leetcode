@@ -89,7 +89,7 @@ mod tests {
     }
 
     #[test]
-    pub fn one_element() {
+    pub fn one_input() {
         test_all_solutions(vec![5], 5);
     }
 }
