@@ -8,3 +8,4 @@ mod plus_one;
 mod move_zeros;
 mod two_sum;
 mod valid_sudoku;
+mod rotate_image;
