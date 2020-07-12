@@ -1,1 +1,1 @@
-mod top_interview_questions;
+mod problems;

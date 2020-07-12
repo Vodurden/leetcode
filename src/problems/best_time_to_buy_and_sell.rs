@@ -58,9 +58,9 @@ mod tests {
         assert_eq!(Solution::max_profit(input), expected_result);
     }
 
-    // Input: [7,6,4,3,1]
-    // Output: 0
-    // Explanation: In this case, no transaction is done, i.e. max profit = 0.
+    /// Input: [7,6,4,3,1]
+    /// Output: 0
+    /// Explanation: In this case, no transaction is done, i.e. max profit = 0.
     #[test]
     pub fn example_3() {
         let input = vec![7,6,4,3,1];
