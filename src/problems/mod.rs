@@ -15,3 +15,4 @@ mod rotate_image;
 mod reverse_string;
 mod reverse_integer;
 mod first_uniq_char;
+mod valid_anagram;
