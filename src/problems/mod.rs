@@ -14,3 +14,4 @@ mod rotate_image;
 // "String" Problems
 mod reverse_string;
 mod reverse_integer;
+mod first_uniq_char;
