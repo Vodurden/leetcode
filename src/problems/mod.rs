@@ -16,3 +16,4 @@ mod reverse_string;
 mod reverse_integer;
 mod first_uniq_char;
 mod valid_anagram;
+mod valid_palindrome;
