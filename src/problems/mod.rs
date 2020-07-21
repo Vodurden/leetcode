@@ -18,3 +18,4 @@ mod first_uniq_char;
 mod valid_anagram;
 mod valid_palindrome;
 mod string_to_integer;
+mod implement_strstr;
