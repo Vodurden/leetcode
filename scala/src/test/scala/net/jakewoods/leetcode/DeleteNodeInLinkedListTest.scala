@@ -14,8 +14,8 @@ object DeleteNodeInLinkedListTest extends TestSuite {
       val List(a, b, _, _) = ListNode.nodes(4,5,1,9)
       DeleteNodeInLinkedList.deleteNode(b)
 
-      val result = a.toList
-      val expected = List(4,1,9)
+      val result = a
+      val expected = ListNode.listOf(4,1,9)
       assert(result == expected)
     }
 
@@ -26,8 +26,8 @@ object DeleteNodeInLinkedListTest extends TestSuite {
       val List(a, _, c, _) = ListNode.nodes(4,5,1,9)
       DeleteNodeInLinkedList.deleteNode(c)
 
-      val result = a.toList
-      val expected = List(4,5,9)
+      val result = a
+      val expected = ListNode.listOf(4,5,9)
       assert(result == expected)
     }
   }
