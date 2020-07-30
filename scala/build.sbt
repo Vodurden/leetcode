@@ -14,6 +14,8 @@ lazy val projectSettings = Seq(
 )
 
 lazy val projectDependencies = Seq(
+  "org.scalacheck" %% "scalacheck" % "1.14.3",
+
   "com.lihaoyi" %% "utest" % "0.7.3" % "test"
 )
 
